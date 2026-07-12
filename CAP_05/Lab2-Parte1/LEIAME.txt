@@ -6,6 +6,8 @@
 
 # https://developer.hashicorp.com/terraform/intro/core-workflow
 
+# https://developer.hashicorp.com/terraform/language/values/variables
+
 
 
 # Instruções do Lab 2
@@ -23,6 +25,9 @@ docker build -t dsa-terraform-image:lab2 .
 
 docker run -dit --name dsa-lab2 dsa-terraform-image:lab2 /bin/bash
 
+# Execute o comando abaixo para abrir o container em bash
+
+docker exec -it dsa-lab2 bash
 
 # Verifique as versões do Terraform e do AWS CLI com os comandos abaixo
 
